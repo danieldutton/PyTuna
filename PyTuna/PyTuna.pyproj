@@ -5,8 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ac27c01b-e949-4498-9b82-73a6579a6593</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>app_start.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -46,6 +45,15 @@
     <Folder Include="audio\" />
     <Folder Include="audio\resources\" />
     <Folder Include="gui\" />
+    <Folder Include="unit_tests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="audio\resources\Guitar_A.wav" />
+    <Content Include="audio\resources\Guitar_B.wav" />
+    <Content Include="audio\resources\Guitar_D.wav" />
+    <Content Include="audio\resources\Guitar_EHigh.wav" />
+    <Content Include="audio\resources\Guitar_ELow.wav" />
+    <Content Include="audio\resources\Guitar_G.wav" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
